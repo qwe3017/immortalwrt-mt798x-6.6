@@ -108,10 +108,13 @@ platform_do_upgrade() {
 	netcore,n60|\
 	routerich,ax3000-ubootmod|\
 	ruijie,ew-6000gx-pro-ubootmod|\
+	ruijie,rg-x60-new-ubi|\
 	ruijie,rg-x60-new-ubootmod|\
 	tplink,tl-xtr8488|\
 	tplink,wma301-ubootmod|\
 	wirelesstag,zx7981pd-ubootmod|\
+	zbtlink,zbt-z8103ax-c-ubootmod|\
+	zbtlink,zbt-z8103ax-ubi|\
 	zyxel,ex5601-t0-ubootmod)
 		fit_do_upgrade "$1"
 		;;
